@@ -1,5 +1,10 @@
-aside{
-    width: 250px;
+main{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}
+#izquierda{
+    width: 40%;
     background-color: #252424;
     padding: 5px;
     color: #ffffff;
@@ -15,9 +20,48 @@ aside{
     height: 15px;
     width: 90%px;
 }
-img{
-    width: 250px;
+#foto{
+    width: 100%;
 }
 main{
     margin: auto;
+}
+.info{
+    margin-left: 10%;
+}
+#derecha{
+    width: 60%;
+}
+#name{
+    background-color:#fae714 ;
+    padding: 30px 50px;
+    margin-top: 80px;
+}
+#aboutme{
+    padding: 10px 30px;
+}
+.black_info{
+    padding: 0% 10%;
+
+}
+.black_info > a{
+    color: white;
+}
+
+.info > a{
+    color: white;
+}
+#work_experience{
+    padding: 10px 30px;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.years{
+    width: 20%;
+}
+.job-details{
+    width: 80%;
 }
