@@ -1,0 +1,23 @@
+aside{
+    width: 250px;
+    background-color: #252424;
+    padding: 5px;
+    color: #ffffff;
+}
+.yellow_sqr{
+    width: 10%;
+    height: 15px;
+    background-color: yellow;
+    float: left;
+}
+.gray_desc{
+    background-color: #474646;
+    height: 15px;
+    width: 90%px;
+}
+img{
+    width: 250px;
+}
+main{
+    margin: auto;
+}
