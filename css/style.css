@@ -8,7 +8,7 @@ main{
 
 #izquierda{
     width: 40%;
-    background-color: #252424;
+    background: linear-gradient(176deg, rgba(117,114,119,1) 0%, rgba(89,86,86,1) 42%, rgba(0,0,0,1) 100%);
     padding: 5px;
     color: #ffffff;
 }
