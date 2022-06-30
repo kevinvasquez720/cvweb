@@ -4,6 +4,7 @@ main{
     flex-direction: row;
     border: 1px black solid;
     margin: auto;
+    font-family: sans-serif;
 }
 
 #izquierda{
@@ -14,6 +15,15 @@ main{
 }
 #foto{
     width: 100%;
+}
+#reference{
+    margin-bottom: 5%;
+}
+#reference > div > a{
+    color: white;
+}
+.people{
+    margin-top: 5%;
 }
 .yellow_sqr{
     width: 10%;
@@ -28,10 +38,10 @@ main{
 }
 .info{
     margin-left: 10%;
+    margin-bottom: 2%;
 }
 .black_info{
     padding: 0% 10%;
-
 }
 .black_info > a{
     color: white;
@@ -108,5 +118,8 @@ main{
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .black_info{
+        padding: 0%;
     }
   }
