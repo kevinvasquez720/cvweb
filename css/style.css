@@ -2,7 +2,6 @@ main{
     display: flex;
     width: 80%;
     flex-direction: row;
-    border: 1px black solid;
     margin: auto;
     font-family: sans-serif;
 }
@@ -41,7 +40,7 @@ main{
     margin-bottom: 2%;
 }
 .black_info{
-    padding: 0% 10%;
+    padding: 0% 5%;
 }
 .black_info > a{
     color: white;
@@ -55,7 +54,8 @@ main{
     width: 60%;
 }
 #name{
-    background-color:#fae714 ;
+    background: linear-gradient(332deg, rgba(179,187,33,1) 0%, rgba(228,255,1,1) 55%);
+    /* background-color:#fae714 ; */
     padding: 30px 50px;
     margin-top: 80px;
 }
@@ -88,16 +88,36 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.skills > h4{
+    margin: 20px;
+    -webkit-transition: color 0.5s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.5s; /* For modern browsers */   
+}
+.skills > h4:hover {
+    color: #bdec3b;
+}
 .skills{
     width: 33.3333%;
     text-align: center;
+}
+#certifications{
+    margin-bottom: 5%;
+}
+footer{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2% 5%;
 }
 @media screen and (max-width: 1280px) {
     main {
         display: flex;
         width: 100%;
         flex-direction: row;
-        border: 1px black solid;
     }
     .skills{
         width: 50%;
@@ -121,5 +141,15 @@ main{
     }
     .black_info{
         padding: 0%;
+    }
+    footer{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        margin: auto;
+        font-family: sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 2% 5%;
     }
   }
