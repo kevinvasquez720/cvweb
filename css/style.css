@@ -40,6 +40,7 @@ main{
 .info > a{
     color: white;
 }
+
 #derecha{
     width: 60%;
 }
@@ -81,7 +82,7 @@ main{
     width: 33.3333%;
     text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     main {
         display: flex;
         width: 100%;
