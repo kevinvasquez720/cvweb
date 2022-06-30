@@ -4,14 +4,7 @@ main{
     flex-direction: row;
     border: 1px black solid;
 }
-@media screen and (max-width: 600px) {
-    main {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        border: 1px black solid;
-    }
-  }
+
 #izquierda{
     width: 40%;
     background-color: #252424;
@@ -49,9 +42,6 @@ main{
 #aboutme{
     padding: 10px 30px;
 }
-#software_skill{
-    padding: 10px 30px;    
-}
 .black_info{
     padding: 0% 10%;
 
@@ -80,12 +70,27 @@ main{
     display: flex;
     flex-direction: column;
 }
+#software_skill{
+    padding: 10px 30px;
+}
 #skill-list{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .skills{
-    width: 50%;
-    border: 1px solid black;
+    width: 33.3333%;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .skills{
+        width: 50%;
+        text-align: center;
+    }
+    main {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        border: 1px black solid;
+    }
+  }
