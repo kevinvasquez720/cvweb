@@ -135,6 +135,12 @@ footer a{
         width: 100%;
         flex-direction: row;
     }
+    #name{
+        background: rgb(20,20,19);
+        background: linear-gradient(351deg, rgba(20,20,19,1) 0%, rgba(255,185,0,1) 42%);
+        padding: 30px 50px;
+        margin-top: 0px;
+    }
     #copyright{
         display: none;
     }
