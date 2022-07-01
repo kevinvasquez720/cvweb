@@ -1,15 +1,16 @@
 main{
     display: flex;
-    width: 70%;
+    width: 80%;
     flex-direction: row;
     margin: auto;
     font-family: myFirstFont;
+    padding: 0px;
 }
 
 #izquierda{
     width: 40%;
     background: linear-gradient(176deg, rgba(117,114,119,1) 0%, rgba(89,86,86,1) 42%, rgba(0,0,0,1) 100%);
-    padding: 5px;
+    padding: 2%;
     color: #ffffff;
 }
 #foto{
@@ -113,7 +114,7 @@ main{
 }
 footer{
     display: flex;
-    width: 60%;
+    width: 70%;
     flex-direction: row;
     margin: auto;
     font-family: myFirstFont;
@@ -129,20 +130,20 @@ footer a{
     font-family: myFirstFont;
     src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
   }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 480px) {
     main {
         display: flex;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
+    }
+    #izquierda{
+        width: 98%;
+    }
+    #derecha{
+        width: 100%;
     }
     #name{
-        background: rgb(20,20,19);
-        background: linear-gradient(351deg, rgba(20,20,19,1) 0%, rgba(255,185,0,1) 42%);
-        padding: 30px 50px;
         margin-top: 0px;
-    }
-    #copyright{
-        display: none;
     }
     .skills{
         width: 50%;
@@ -179,4 +180,63 @@ footer a{
         padding: 2% 5%;
         justify-content: space-evenly;
     }
+    #copyright{
+        display: none;
+    }
+    #socialmedia{
+        display: none;
+    }
   }
+  @media screen and (min-width: 481px) and (max-width:900px) {
+    main {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    #izquierda{
+        width: 38%;
+    }
+    #derecha{
+        width: 60%;
+    }
+    #name{
+        margin-top: 0px;
+    }
+    .skills{
+        width: 50%;
+        text-align: center;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        
+    }
+    .years{
+        width: 100%;
+        display: flex;
+        align-self: center;
+        text-decoration: underline;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .black_info{
+        padding: 0%;
+    }
+    footer{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        margin: auto;
+        font-family: myFirstFont;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 2% 5%;
+        justify-content: space-evenly;
+    }
+    #copyright{
+        display: none;
+    }
