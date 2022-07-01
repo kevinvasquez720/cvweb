@@ -1,6 +1,6 @@
 main{
     display: flex;
-    width: 80%;
+    width: 70%;
     flex-direction: row;
     margin: auto;
     font-family: sans-serif;
@@ -27,7 +27,7 @@ main{
 .yellow_sqr{
     width: 10%;
     height: 15px;
-    background-color: yellow;
+    background-color: #ffb901;
     float: left;
 }
 .gray_desc{
@@ -54,8 +54,8 @@ main{
     width: 60%;
 }
 #name{
-    background: linear-gradient(332deg, rgba(179,187,33,1) 0%, rgba(228,255,1,1) 55%);
-    /* background-color:#fae714 ; */
+    background: rgb(20,20,19);
+    background: linear-gradient(351deg, rgba(20,20,19,1) 0%, rgba(255,185,0,1) 42%);
     padding: 30px 50px;
     margin-top: 80px;
 }
@@ -68,13 +68,18 @@ main{
 .work{
     display: flex;
     flex-direction: row;
+    
 }
 .years{
     width: 20%;
     display: flex;
     align-self: center;
     text-align: center;
+    /* background-color: #ffb901; */
 }
+/* .job-name{
+    background-color: #ffb901;
+} */
 .right{
     width: 80%;
     display: flex;
@@ -94,7 +99,7 @@ main{
     transition: color 0.5s; /* For modern browsers */   
 }
 .skills > h4:hover {
-    color: #bdec3b;
+    color: #ffb900;
 }
 .skills{
     width: 33.3333%;
@@ -105,7 +110,7 @@ main{
 }
 footer{
     display: flex;
-    width: 70%;
+    width: 60%;
     flex-direction: row;
     margin: auto;
     font-family: sans-serif;
@@ -127,6 +132,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin-top: 5%;
+        
     }
     .years{
         width: 100%;
