@@ -135,6 +135,9 @@ footer a{
         width: 100%;
         flex-direction: row;
     }
+    #copyright{
+        display: none;
+    }
     .skills{
         width: 50%;
         text-align: center;
@@ -168,5 +171,6 @@ footer a{
         background-color: #000000;
         color: #ffffff;
         padding: 2% 5%;
+        justify-content: space-evenly;
     }
   }
