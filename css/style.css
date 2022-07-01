@@ -120,6 +120,10 @@ footer{
     background-color: #000000;
     color: #ffffff;
     padding: 2% 5%;
+    justify-content: space-between;
+}
+footer a{
+    color: white;
 }
 @font-face {
     font-family: myFirstFont;
