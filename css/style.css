@@ -46,6 +46,10 @@ main{
     color: white;
 }
 
+.black_info > hr{
+    border-color: #ffb901;
+}
+
 .info > a{
     color: white;
 }
