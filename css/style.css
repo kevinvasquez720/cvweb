@@ -3,7 +3,7 @@ main{
     width: 70%;
     flex-direction: row;
     margin: auto;
-    font-family: sans-serif;
+    font-family: myFirstFont;
 }
 
 #izquierda{
@@ -26,13 +26,13 @@ main{
 }
 .yellow_sqr{
     width: 10%;
-    height: 15px;
+    height: 21px;
     background-color: #ffb901;
     float: left;
+    height: max-co;
 }
 .gray_desc{
     background-color: #474646;
-    height: 15px;
     width: 90%px;
 }
 .info{
@@ -77,7 +77,6 @@ main{
 .years{
     width: 20%;
     display: flex;
-    align-self: center;
     text-align: center;
     /* background-color: #ffb901; */
 }
@@ -117,11 +116,15 @@ footer{
     width: 60%;
     flex-direction: row;
     margin: auto;
-    font-family: sans-serif;
+    font-family: myFirstFont;
     background-color: #000000;
     color: #ffffff;
     padding: 2% 5%;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+  }
 @media screen and (max-width: 1280px) {
     main {
         display: flex;
@@ -157,7 +160,7 @@ footer{
         width: 90%;
         flex-direction: row;
         margin: auto;
-        font-family: sans-serif;
+        font-family: myFirstFont;
         background-color: #000000;
         color: #ffffff;
         padding: 2% 5%;
