@@ -187,7 +187,7 @@ footer a{
         display: none;
     }
   }
-  @media screen and (min-width: 481px) and (max-width:900px) {
+  @media screen and (min-width: 481px) and (max-width:1023px) {
     main {
         display: flex;
         width: 100%;
