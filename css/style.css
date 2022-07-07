@@ -33,7 +33,6 @@ main{
     height: 21px;
     background-color: #ffb901;
     float: left;
-    height: max-co;
 }
 .gray_desc{
     background-color: #474646;
@@ -45,11 +44,17 @@ main{
 }
 .black_info{
     padding: 0% 5%;
+    font-weight: 300;
 }
 .black_info > a{
     color: white;
 }
-
+.black_info > h4{
+    font-weight: 600;
+}
+.black_info > h3{
+    font-weight: 700;
+}
 .black_info > hr{
     border-color: #ffb901;
 }
